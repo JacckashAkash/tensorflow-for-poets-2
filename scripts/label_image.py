@@ -75,7 +75,7 @@ if __name__ == "__main__":
   input_width = 299
   input_mean = 0
   input_std = 255
-  input_layer = "Mul"
+  input_layer = 'Mul'
   output_layer = "final_result"
 
   parser = argparse.ArgumentParser()
