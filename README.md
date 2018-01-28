@@ -1,5 +1,5 @@
 # Overview
-This Repo is somewhat changed by Ritesh for the Series - [Image classification With Temsorflow](https://www.youtube.com/playlist?list=PLtl9EQhH8dm3BaqXJBrUvVaITzM0xxD-t) on YouTube.
+This Repo is somewhat changed by Ritesh for the Series - [Image classification With Tensorflow](https://www.youtube.com/playlist?list=PLtl9EQhH8dm3BaqXJBrUvVaITzM0xxD-t) on YouTube.
 
 This repo contains code for the "TensorFlow for poets 2" series of codelabs for Classifying Images in five different categories.
 
@@ -36,7 +36,7 @@ of the tensorflow libraries you plan on using:
 
 * (RE)TRAINING the Network:
 
-  The retrain script can retrain either Inception V3 model or a MobileNet. In this exercise, we will use an Inception V3. The principal
+  The retrain script can retrain either Inception V3 model or a MobileNet. In this series, we will use an Inception V3 model. The principal
   difference is that Inception V3 is optimized for accuracy, while the MobileNets are optimized to be small and efficient, at the cost 
   of some accuracy.
     The Script Downloads the pre-trained Inception_v3 model and adds a FINAL Layer to it by TRAINING it on OUR Images.
@@ -56,6 +56,7 @@ of the tensorflow libraries you plan on using:
 * Using the RETRAINED MODEL:
   
   - Classifying an image
+  
      The codelab repo also contains a copy of tensorflow's [label_image.py]      (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/label_image.py) example, which you can use to test your network.
     
    To Classify any Image, hit the Following:
