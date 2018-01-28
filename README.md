@@ -28,7 +28,7 @@ DOWNLOAD the training images:
   
     http://download.tensorflow.org/example_images/flower_photos.tgz
     
-   To Download these images, simply paste the above link in the Address Bar of your Favorite Web Browser, or use [my code](https://github.com/MauryaRitesh/Python/blob/master/file_downloader-progress_bar.py)
+   To Download these images, Use [MY CODE-File Downloader.py](https://github.com/MauryaRitesh/Python/blob/master/file_downloader-progress_bar.py) OR simply paste the above link in the Address Bar of your Favorite Web Browser!
     
 
 (RE)TRAINING the Network:
