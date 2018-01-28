@@ -12,12 +12,12 @@ of the tensorflow libraries you plan on using:
 
 * SETUP:
 
- - Install Tensor Flow:
+ Install Tensor Flow:
     In the Terminal/CMD, hit the following:
     
        pip install tensorflow
       
- - Clone the git repository
+ Clone the git repository
     All the code used in this codelab is contained in this git repository. Clone the repository and cd into it. This is where we will be
     working.
       
@@ -65,4 +65,4 @@ of the tensorflow libraries you plan on using:
     
    This will Classify the Given Image on the basis of the Training. Note that, it'll try to classify any type of image, say a person     
    into these five types of flowers. So, for now it's the end and please tell me which type of your face looks after being classified by 
-   the Retrained Classiier!!!
+   the Retrained Classifier!!!
