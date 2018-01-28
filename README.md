@@ -12,12 +12,12 @@ of the tensorflow libraries you plan on using:
 
 * SETUP:
 
- * Install Tensor Flow:
+ - Install Tensor Flow:
     In the Terminal/CMD, hit the following:
     
        pip install tensorflow
       
- * Clone the git repository
+ - Clone the git repository
     All the code used in this codelab is contained in this git repository. Clone the repository and cd into it. This is where we will be
     working.
       
@@ -28,10 +28,9 @@ of the tensorflow libraries you plan on using:
 
   Before you start any training, you'll need a set of images to teach the model about the new classes you want to recognize. 
   
-    http://download.tensorflow.org/example_images/flower_photos.tgz
+      http://download.tensorflow.org/example_images/flower_photos.tgz
     
-   To Download these images, Use [MY CODE-File Downloader.py](https://github.com/MauryaRitesh/Python/blob/master/file_downloader-
-   progress_bar.py) OR simply paste the above link in the Address Bar of your Favorite Web Browser!
+   To Download these images, Use [MY CODE-File Downloader.py](https://github.com/MauryaRitesh/Python/blob/master/file_downloader-progress_bar.py) OR simply paste the above link in the Address Bar of your Favorite Web Browser!
     
 
 * (RE)TRAINING the Network:
@@ -43,28 +42,26 @@ of the tensorflow libraries you plan on using:
     
    To Start (Re)Training the Network, hit the following in the Terminal/CMD:
    
-    python -m scripts.retrain
-    --bottleneck_dir=tf_files/bottlenecks
-    --model_dir=tf_files/models
-    --summaries_dir=tf_files/training_summaries
-    --output_graph=tf_files/retrained_graph.pb
-    --how_many_training_steps=4000
-    --output_labels=tf_files/retrained_labels.txt
-    --architecture=inception_v3
-    --image_dir=tf_files/flower_photos
+      python -m scripts.retrain
+      --bottleneck_dir=tf_files/bottlenecks
+      --model_dir=tf_files/models
+      --summaries_dir=tf_files/training_summaries
+      --output_graph=tf_files/retrained_graph.pb
+      --how_many_training_steps=4000
+      --output_labels=tf_files/retrained_labels.txt
+      --architecture=inception_v3
+      --image_dir=tf_files/flower_photos
     
 * Using the RETRAINED MODEL:
   
-  * Classifying an image
-     The codelab repo also contains a copy of tensorflow's [label_image.py]       
-     (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/label_image.py) example, which you can use to 
-     test your network.
+  - Classifying an image
+     The codelab repo also contains a copy of tensorflow's [label_image.py]      (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/label_image.py) example, which you can use to test your network.
     
    To Classify any Image, hit the Following:
    
-    python -m scripts.label_image \
-    --graph=tf_files/retrained_graph.pb  \
-    --image=[Your Image HERE]
+      python -m scripts.label_image \
+      --graph=tf_files/retrained_graph.pb  \
+      --image=[Your Image HERE]
     
    This will Classify the Given Image on the basis of the Training. Note that, it'll try to classify any type of image, say a person     
    into these five types of flowers. So, for now it's the end and please tell me which type of your face looks after being classified by 
