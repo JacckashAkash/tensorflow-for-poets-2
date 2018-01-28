@@ -1,6 +1,7 @@
 # Overview
+This Repo is somewhat changed by Ritesh for the Series - [Image classification With Temsorflow](https://www.youtube.com/playlist?list=PLtl9EQhH8dm3BaqXJBrUvVaITzM0xxD-t) on YouTube.
 
-This repo contains code for the "TensorFlow for poets 2" series of codelabs.
+This repo contains code for the "TensorFlow for poets 2" series of codelabs for Classifying Images in five different categories.
 
 There are multiple versions of this codelab depending on which version 
 of the tensorflow libraries you plan on using:
