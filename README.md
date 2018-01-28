@@ -55,9 +55,9 @@ of the tensorflow libraries you plan on using:
     
 * Using the RETRAINED MODEL:
   
-  - Classifying an image
-  
-     The codelab repo also contains a copy of tensorflow's [label_image.py]      (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/label_image.py) example, which you can use to test your network.
+  Classifying an image
+
+   The codelab repo also contains a copy of tensorflow's [label_image.py]    (https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/label_image/label_image.py) example, which you can use to test your network.
     
    To Classify any Image, hit the Following:
    
