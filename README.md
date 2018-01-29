@@ -22,7 +22,7 @@ of the tensorflow libraries you plan on using:
     All the code used in this codelab is contained in this git repository. Clone the repository and cd into it. This is where we will be
     working.
       
-       git clone https://github.com/googlecodelabs/tensorflow-for-poets-2
+       git clone https://github.com/MauryaRitesh/tensorflow-for-poets-2
        cd tensorflow-for-poets-2
       
 * DOWNLOAD the training images:
