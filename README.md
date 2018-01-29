@@ -43,15 +43,15 @@ of the tensorflow libraries you plan on using:
     
    To Start (Re)Training the Network, hit the following in the Terminal/CMD:
    
-      python -m scripts.retrain
-      --bottleneck_dir=tf_files/bottlenecks
-      --model_dir=tf_files/models
-      --summaries_dir=tf_files/training_summaries
-      --output_graph=tf_files/retrained_graph.pb
-      --how_many_training_steps=4000
-      --output_labels=tf_files/retrained_labels.txt
-      --architecture=inception_v3
-      --image_dir=tf_files/flower_photos
+      python -m scripts.retrain \
+      --bottleneck_dir=tf_files/bottlenecks \
+      --model_dir=tf_files/models \
+      --summaries_dir=tf_files/training_summaries \
+      --output_graph=tf_files/retrained_graph.pb \
+      --how_many_training_steps=4000 \
+      --output_labels=tf_files/retrained_labels.txt \
+      --architecture=inception_v3 \
+      --image_dir=tf_files/flower_photos \
     
 * Using the RETRAINED MODEL:
   
