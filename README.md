@@ -1,5 +1,5 @@
 # Overview
-This Repo is somewhat changed by Ritesh for the Series - [IMAGE CLASSIFICATION WITH TENSORFLOW](https://www.youtube.com/playlist?list=PLtl9EQhH8dm3BaqXJBrUvVaITzM0xxD-t) on YouTube.
+This Repo is somewhat changed by [Ritesh Kumar Maurya](youtube.com/RiteshKumarMaurya) for the Series - [IMAGE CLASSIFICATION WITH TENSORFLOW](https://www.youtube.com/playlist?list=PLtl9EQhH8dm3BaqXJBrUvVaITzM0xxD-t) on [YouTube](youtube.com/RiteshKumarMaurya).
 
 This repo contains code for the "TensorFlow for poets 2" series of codelabs for Classifying Images in five different categories.
 
